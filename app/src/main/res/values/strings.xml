@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RecipeXx</string>
+    <string name="add_new_recipe">Add New Recipe</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="add_recipe">Add Recipe</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="recipe_list">Recipe List</string>
+    <string name="share_with_friends_and_family">Share with Friends and Family</string>
+    <string name="share_with_family_screen">Share with Family Screen</string>
+    <string name="main">Main</string>
+    <string name="app_logo">app_logo</string>
+</resources>

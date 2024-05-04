@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <Button
+        android:id="@+id/btnRecipeList"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+        android:text="@string/recipe_list" />
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRecipeList"
+        android:layout_alignEnd="@+id/btnAddRecipe"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="-52dp"
+        android:text="@string/share_with_friends_and_family" />
+
+    <Button
+        android:id="@+id/btnAddRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRecipeList"
+        android:layout_alignEnd="@+id/btnRecipeList"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="-16dp"
+        android:text="@string/add_new_recipe" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        app:srcCompat="@mipmap/actual_logo_foreground"
+        android:contentDescription="@string/app_logo" />
+
+</RelativeLayout>

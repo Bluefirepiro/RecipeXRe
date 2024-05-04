@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:theme="@style/CustomTheme"
+    tools:context=".AddRecipeActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/add_new_recipe"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/editTextRecipeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewTitle"
+        android:layout_marginTop="16dp"
+        android:hint="@string/recipe_name"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextIngredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextRecipeName"
+        android:layout_marginTop="16dp"
+        android:hint="@string/ingredients"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editTextInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextIngredients"
+        android:layout_marginTop="16dp"
+        android:hint="@string/instructions"
+        android:minHeight="48dp"
+        android:autofillHints=""
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnAddRecipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_recipe"
+        android:layout_below="@id/editTextInstructions"
+        android:layout_marginTop="16dp"
+        android:onClick="addRecipe"/>
+
+    <Button
+        android:id="@+id/buttonBackToMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="backToMainMenu"
+        android:text="@string/main"
+
+    />
+
+
+</RelativeLayout>
