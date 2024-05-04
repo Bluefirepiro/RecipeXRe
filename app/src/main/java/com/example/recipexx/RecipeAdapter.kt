@@ -27,10 +27,14 @@ class RecipeAdapter(private val context: Context, private val recipeList: List<R
     inner class RecipeViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         private val recipeNameTextView: TextView = itemView.findViewById(R.id.textViewRecipeName)
         private val ingredientsTextView: TextView = itemView.findViewById(R.id.textViewIngredients)
+        private val instructionsTextView: TextView = itemView.findViewById(R.id.textViewInstructions)
 
         fun bind(recipe: Recipe) {
             recipeNameTextView.text = recipe.name
             ingredientsTextView.text = recipe.ingredients.joinToString(separator = "\n")
+            instructionsTextView.text = recipe.instructions
         }
     }
 }
+
+

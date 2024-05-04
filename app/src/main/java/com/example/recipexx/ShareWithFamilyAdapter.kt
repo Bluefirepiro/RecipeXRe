@@ -28,11 +28,15 @@ class ShareWithFamilyAdapter(private val context: Context, private val familyMem
         private val memberNameTextView: TextView = itemView.findViewById(R.id.textViewMemberName)
         private val memberAgeTextView: TextView = itemView.findViewById(R.id.textViewMemberAge)
         private val memberRelationshipTextView: TextView = itemView.findViewById(R.id.textViewMemberRelationship)
+        private val memberEmailTextView: TextView = itemView.findViewById(R.id.textViewMemberEmail)
+        private val memberPhoneTextView: TextView = itemView.findViewById(R.id.textViewMemberPhone)
 
         fun bind(member: FamilyMember) {
             memberNameTextView.text = member.name
             memberAgeTextView.text = "Age: ${member.age}"
             memberRelationshipTextView.text = "Relationship: ${member.relationship}"
+            memberEmailTextView.text = "Email: ${member.email}"
+            memberPhoneTextView.text = "Phone: ${member.phoneNumber}"
         }
     }
 }

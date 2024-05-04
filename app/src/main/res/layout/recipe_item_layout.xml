@@ -22,5 +22,14 @@
         android:lineSpacingExtra="4dp"
         android:layout_marginTop="8dp" />
 
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewIngredients"
+        android:textSize="16sp"
+        android:lineSpacingExtra="4dp"
+        android:layout_marginTop="8dp" />
+
 </RelativeLayout>
 
