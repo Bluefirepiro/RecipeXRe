@@ -31,6 +31,21 @@ class RecipeListActivity : AppCompatActivity() {
             "Chocolate Chip Cookies",
             listOf("Flour", "Butter", "Sugar", "Chocolate Chips", "Egg", "Vanilla Extract"),
             "1. Cream butter and sugar. \n2. Beat in egg and vanilla. \n3. Mix in flour and chocolate chips. \n4. Drop dough onto baking sheets. \n5. Bake at 350°F for 10-12 minutes."
+        ),
+        Recipe(
+            "Caprese Salad",
+            listOf("Large tomatoes, sliced", "Fresh mozzarella cheese, sliced", "Fresh basil leaves", "Balsamic glaze", "Salt and pepper"),
+            "1. Arrange tomato and mozzarella slices alternately.\n2. Tuck basil leaves between slices.\n3. Drizzle with balsamic glaze.\n4. Season with salt and pepper.\n5. Serve as an appetizer or side dish."
+        ),
+        Recipe(
+            "Vegetable Stir-Fry",
+            listOf("Broccoli florets", "Carrots, sliced", "Bell peppers (mixed colors)", "Snap peas", "Sliced mushrooms", "Soy sauce", "Sesame oil", "Minced garlic", "Salt and pepper"),
+            "1. Heat sesame oil in a pan over medium heat.\n2. Add minced garlic and sauté until fragrant.\n3. Add broccoli, carrots, bell peppers, snap peas, and mushrooms to the pan.\n4. Stir-fry until tender-crisp.\n5. Season with soy sauce, salt, and pepper.\n6. Serve hot as a side dish or over rice."
+        ),
+        Recipe(
+            "Chicken Parmesan",
+            listOf("Boneless, skinless chicken breasts", "Breadcrumbs", "Grated Parmesan cheese", "Egg, beaten", "Marinara sauce", "Shredded mozzarella cheese", "Fresh basil leaves for garnish", "Olive oil", "Salt and pepper"),
+            "1. Flatten chicken breasts and season.\n2. Combine breadcrumbs and Parmesan cheese.\n3. Dip chicken in beaten egg, then coat with breadcrumb mixture.\n4. Fry in olive oil until golden brown.\n5. Place in baking dish with marinara and mozzarella.\n6. Bake until cheese melts.\n7. Garnish with basil leaves."
         )
     )
 
